@@ -1,0 +1,59 @@
+.lnk-btn {
+	background:#E70A80;
+	color:#fff;
+	padding:7px;
+	text-decoration:none;
+	border-radius:3px;
+}
+a.lnk-btn:hover, a.lnk-btn:active, a.lnk-btn:focus {
+	color: #fff;
+}
+
+
+@media only screen and (max-width: 762px) {
+    .connect-form .connect-input {
+		min-width:  95%;
+		height: 35px;
+		display: block;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.connect-form .connect-textarea {
+		min-width:  95%;
+		height: 100px;
+		display: block;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+}
+
+
+@media only screen and (min-width: 762px) {
+    .connect-form .connect-input {
+		min-width: 50%;
+		height: 35px;
+		display: block;
+		margin-top: 10px;
+		margin-bottom: 10px;
+    }
+    .connect-form .connect-textarea {
+		min-width:  50%;
+		height: 100px;
+		display: block;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+}
+
+.connect-form .connect-submit {
+	border: none !important;
+	background:#E70A80;
+	color:#fff;
+	padding:7px;
+	text-decoration:none;
+	border-radius:3px;
+}
+
+.connect-form label {
+	font-weight: bold;
+}
